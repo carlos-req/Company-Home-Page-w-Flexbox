@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,400;1,200&display=swap');
+*{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+body{background-color:#3b2054;}
+
+/* Nav Styles */
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 8%;
+  font-weight: 300;
+  font-size: 1.375rem;
+  margin-bottom: 1rem;
+}
+li,
+a {
+  color: white;
+  text-decoration: none;
+}
+.logo{
+  cursor:pointer;
+  margin-right:auto;
+  color:white;
+}
+.logo{
+  cursor: pointer;
+}
+.logo_style{
+  color:#00DDEB;
+}
+.nav_links {
+  list-style: none;
+  
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+
+}
+.nav_links li a:hover{
+  color:darkgray;
+}
+
+/* Font Styles */
+h1{
+font-size: 3rem;
+line-height: 4rem;
+}
+p{
+  font-size: 1.5rem;
+}
+.hero_p{
+  font-family: 'Barlow';
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-style: italic;
+}
+.gradient_text{
+  font-size: 3rem;
+  color:#00DDEB;
+}
+h2{
+  font-size: 1.5rem;
+}
+h3{
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 1.0px;
+}
+.username{
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 1.0px;
+}
+.price{
+  font-weight: 200;
+  font-size: 1.3rem;
+  letter-spacing: 1.2px;
+}
+.lister{
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.0rem;
+  letter-spacing: 1px;
+}
+footer{
+  text-align: center;
+  color: white;
+}
+h5{
+  font-size: .9rem;
+  margin: .5rem;
+}
+.foot{
+  font-size: .9rem;
+  margin: .5rem;
+}
+
+
+
+/* Main Layouts*/
+.container {
+  width: 95%;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: white;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+h1{
+  margin-bottom: 1rem;
+}
+.col p{
+  margin-bottom: 1rem;
+}
+.col-1{
+  width: 40%;
+  padding-top: 50px;
+}
+.col-2{
+  width: 40%;
+}
+.col img{
+  
+  max-width: 100%;
+  border-radius: 5%;
+  box-shadow: rgba(151, 65, 252, 0.2) 10px 15px 30px -5px;
+}
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 8px 10px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+h2{
+  margin-bottom: 1.5rem;
+}
+h3{
+  margin-top: .5rem;
+}
+h4{
+  margin-top: .5rem;
+}
+.price{
+  margin: .4rem 0;
+}
+.lister{
+  margin: .4rem 0;
+}
+.nfts{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Barlow';
+  margin-bottom: 8rem;
+}
+.nfts img{
+  max-width: 100%;
+}
+.nft1{
+  width: 20%;
+  text-align: center;
+}
+.box_content{
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.nft2{
+  width: 20%;
+  text-align: center;
+}
+.nft3{
+  width: 20%;
+  text-align: center;
+}
+
+.collections{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Barlow';
+  margin-bottom: 8rem;
+}
+.collections img{
+  max-width: 100%; 
+}
+.collection1{
+  width: 25%;
+  text-align: center;
+}
+.box_content{
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.collection2{
+  width: 25%;
+  text-align: center;
+}
+.collection3{
+  width: 25%;
+  text-align: center;
+}
+.collections button{
+  margin: 1rem auto;
+}
