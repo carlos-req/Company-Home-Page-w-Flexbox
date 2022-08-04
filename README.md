@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/carlos-req/Company-Home-Page-w-Flexbox)
-- Live Site URL: [Add live site URL here](https://carlos-req.github.io/Company-Home-Page-w-Flexbox/)
+- Solution URL: [Solution](https://github.com/carlos-req/Company-Home-Page-w-Flexbox)
+- Live Site URL: [Live](https://carlos-req.github.io/Company-Home-Page-w-Flexbox/)
 
 ## My process
 
