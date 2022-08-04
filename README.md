@@ -42,5 +42,5 @@ I learned how further advance my knowledge with flexbox and making fully respons
 
 ## Author
 
-- Website - [Carlos Requena](https://github.com/carlos-req)
+- Website - [Carlos Requena](https://carlosjrequena.com/)
 - Twitter - [@CarlosReq11](https://twitter.com/CarlosReq11)
